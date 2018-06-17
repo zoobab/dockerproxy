@@ -80,3 +80,4 @@ Todo
 
 * multithreading with gunicorn, right now one client at a time
 * docker image
+* make a website to do the service
