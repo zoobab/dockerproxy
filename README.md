@@ -81,3 +81,4 @@ Todo
 * multithreading with gunicorn, right now one client at a time
 * docker image
 * make a website to do the service
+* check the input format [az09] according to the docker spec
