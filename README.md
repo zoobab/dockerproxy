@@ -82,3 +82,5 @@ Todo
 * docker image
 * make a website to do the service with a proper letsencrypt https
 * check the input format [az09] according to the docker spec
+* investigate DIND to do the pull
+* investigate other backends to download (udocker, curl scripts, etc...)
