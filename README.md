@@ -13,6 +13,8 @@ How to run the proxy?
 
 It is a simple flask application, so you first need to install flask. 
 
+You also need to run it on a host machine which has a docker daemon running.
+
 Then launch it:
 
 ```
@@ -84,3 +86,4 @@ Todo
 * check the input format [az09] according to the docker spec
 * investigate DIND to do the pull
 * investigate other backends to download (udocker, curl scripts, etc...)
+* use a curl script to download the image: https://github.com/moby/moby/blob/master/contrib/download-frozen-image-v2.sh
