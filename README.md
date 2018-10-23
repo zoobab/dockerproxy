@@ -88,3 +88,4 @@ Todo
 * investigate other backends to download (udocker, curl scripts, etc...)
 * use a curl script to download the image: https://github.com/moby/moby/blob/master/contrib/download-frozen-image-v2.sh
 * web portal where you can specify the image+tag
+* docker load example
