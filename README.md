@@ -75,7 +75,15 @@ busybox.tar                100%[=====================================>]  45.50M 
 Curl
 ====
 
-Add some curl examples here.
+A simple curl example here, with the `-O -J` options (see https://stackoverflow.com/questions/7451299/how-do-i-preserve-the-remote-filename-when-downloading-a-file-using-curl):
+
+```
+$ curl -O -J http://127.0.0.1:5000/?myimage=busybox:1.31
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1412k  100 1412k    0     0   740k      0  0:00:01  0:00:01 --:--:--  740k
+curl: Saved to filename 'busybox:1.31.tar'
+```
 
 Todo
 ====
