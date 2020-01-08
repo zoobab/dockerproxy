@@ -30,16 +30,16 @@ Wget client
 After that you can try with the busybox image for example:
 
 ```
-$ wget http://127.0.0.1:5000/dl?myimage=busybox
---2018-06-17 12:29:21--  http://127.0.0.1:5000/dl?myimage=busybox
+$ wget http://127.0.0.1:5000/?myimage=busybox
+--2018-06-17 12:29:21--  http://127.0.0.1:5000/?myimage=busybox
 Connecting to 127.0.0.1:5000... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 47714304 (46M) [application/octet-stream]
 Saving to: ‘dl?myimage=busybox’
 
-dl?myimage=busybox         100%[=====================================>]  45.50M  --.-KB/s    in 0.1s    
+?myimage=busybox         100%[=====================================>]  45.50M  --.-KB/s    in 0.1s    
 
-2018-06-17 12:29:27 (365 MB/s) - ‘dl?myimage=busybox’ saved [47714304/47714304]
+2018-06-17 12:29:27 (365 MB/s) - ‘?myimage=busybox’ saved [47714304/47714304]
 
 ```
 
@@ -60,8 +60,8 @@ Saving image: busybox [OK]
 If you specify the wget option "--content-disposition", you can get a proper image name on disk:
 
 ```
-$ wget --content-disposition http://127.0.0.1:5000/dl?myimage=busybox
---2018-06-17 12:30:47--  http://127.0.0.1:5000/dl?myimage=busybox
+$ wget --content-disposition http://127.0.0.1:5000/?myimage=busybox
+--2018-06-17 12:30:47--  http://127.0.0.1:5000/?myimage=busybox
 Connecting to 127.0.0.1:5000... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 47714304 (46M) [application/octet-stream]
