@@ -88,6 +88,7 @@ curl: Saved to filename 'busybox:1.31.tar'
 Todo
 ====
 
+* Throw an error when the image:tag does not exist (`Error response from daemon: reference does not exist`)
 * multithreading with gunicorn, right now one client at a time
 * docker image
 * make a website to do the service with a proper letsencrypt https
